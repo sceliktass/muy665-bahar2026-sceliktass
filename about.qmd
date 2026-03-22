@@ -1,5 +1,5 @@
 ---
-title: "Hakkımda"
+title: "SILA ÇELİKTAŞ YALÇINKAYA"
 sidebar: false 
 ---
 
@@ -7,34 +7,33 @@ sidebar: false
 
 # Eğitim
 
--   B.S., ................................., ....................................University, Turkey, 20xx - 20xx.
--   M.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
--   Ph.D.., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Gazi University, Electrical and Electronics Engineering, Turkey, 2017-2022
+-   M.S., Engineering Management, Hacettepe University, Turkey, 2026 - Present.
 
 # İş Tecrübesi
-
-## Employements
-
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
+- TAI, Lift Up Aarştırmacısı, 2021-2022
+- ENERJISA, Saha Mühendisi, 2021-2022
+- ASELSAN, Sistem Mühendisi, 2022-Devam Ediyor
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  AYYILDIZ Elektrıik. A.Ş., SAHA MÜHENDİSİ, 2020
 
-2.  Firm bbb, position yyy, year yyy
+2.  ASELSAN, RADAR TASARIM MÜHENDİSİ, 2020
+
+3. ENERJISA, ADAY MÜHENDİS, 2021
 
 # Projects
 
-1.  TUBİTAK 1001..........................
+1.  TUBİTAK 2022, PASİF BİLEŞENLERLE EMI FİLTRE TASARIMI
 
 # Publications
 
-1.  Dasdemir, E., Batta, R., Koksalan, M., Tezcaner Ozturk, D. (2022) “UAV Routing for Reconnaissance Mission: A Multi-Objective Orienteering Problem with Time-Dependent Prizes and Multiple Connections”, Computers & Operations Research, 145: 105882.
+1.  CELIKTAS, S., AKSOY, İ., İNAN, A., Tezcaner Ozturk, D. (2022) “EMI Filter Design with Passive Components for Power Lines”.
 
 # Competencies
 
-R, Quarto, Git, Python
+Python, Matlab, C#, C++
 
 # Hobbies
+Müzik, kitap okuma, dünya mutfağı
