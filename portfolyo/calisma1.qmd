@@ -27,9 +27,9 @@ D. Şirketin sadece en yeni yazılımları kullanması
 
 ##CEVAP A Şıkkı
 
-(c)Veri Seti
 
-• dslabs paketinden polls_us_election_2016 veri setinin içe aktarılması.
+
+##dslabs paketinden polls_us_election_2016 veri setinin içe aktarılması.
 
 ```{r}
 library(dslabs)
@@ -41,7 +41,7 @@ data <- polls_us_election_2016
 head(data)
 ```
 
-• İki değişken(Ad ve doğum yılı) ve bir k tamsayısı (integer) tanımlanması. Orijinal veri setinin k adet satırını görüntülemek.
+##İki değişken(Ad ve doğum yılı) ve bir k tamsayısı (integer) tanımlanması. Orijinal veri setinin k adet satırını görüntülemek.
 
 ```{r}
 my_first <- "SILA"
@@ -54,13 +54,13 @@ if (k %% 2 == 0) {
 }
 ```
 
-• Tüm veri setindeki toplam NA (eksik) değer sayısı.
+##Tüm veri setindeki toplam NA (eksik) değer sayısı.
 
 ```{r}
 sum(is.na(data))
 ```
 
-• En büyükten en küçüğe sıralanmış şekilde sütun başına NA değer sayısı (ilk 8 sütunu görüntülemek.)
+##En büyükten en küçüğe sıralanmış şekilde sütun başına NA değer sayısı (ilk 8 sütunu görüntülemek.)
 
 ```{r}
 library(knitr)
@@ -79,7 +79,7 @@ kable(
 )
 ```
 
-•Veri setindeki tüm NA değerlerini aşağıdaki gibi değiştirin ve sonucu yeni bir nesne olarak kaydedin (orijinalin üzerine yazmayın):
+##Veri setindeki tüm NA değerlerini aşağıdaki gibi değiştirin ve sonucu yeni bir nesne olarak kaydedin (orijinalin üzerine yazmayın):
 
 – Sayısal (numeric) sütunlar için: NA değerlerini my_birth_year + k ile değiştirin.
 
@@ -107,17 +107,17 @@ for (col in names(new_data)) {
 }
 ```
 
-• Yeni veri çerçevesi (data frame) için çıktıları yazdırın:
+##Yeni veri çerçevesi (data frame) için çıktıları yazdırın:
 
-1\. Yukarıdakiyle tamamen aynı kuralı kullanarak yeni veri çerçevesinin k satırını görüntüleyin:
+##Yukarıdakiyle tamamen aynı kuralı kullanarak yeni veri çerçevesinin k satırını görüntüleyin:
 
 – Eğer k çift ise, yeni veri çerçevesinin ilk k satırını gösterin.
 
 – Eğer k tek ise, yeni veri çerçevesinin son k satırını gösterin.
 
-2\. Yeni veri çerçevesinde kalan toplam NA değer sayısını görüntüleyin.
+##Yeni veri çerçevesinde kalan toplam NA değer sayısını görüntüleyin.
 
-3\. Ayrıca anyNA(new_data) komutunu da yazdırın (Eğer doğru bir şekilde değiştirdiyseniz FALSE döndürmelidir).
+## Ayrıca anyNA(new_data) komutunu da yazdırın (Eğer doğru bir şekilde değiştirdiyseniz FALSE döndürmelidir).
 
 ```{r}
 # 1. k’ya göre satır gösterme
