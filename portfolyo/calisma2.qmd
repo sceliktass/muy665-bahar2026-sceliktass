@@ -6,21 +6,7 @@ title: "Çalışma 2"
 (Aşağıdakiler örnek olarak verilmiştir.)
 
 Bu çalışmada 3 görevimiz var. Bu görevler..... Bunlara sırayla aşağıda cevap arıyoruz.
-# 1. dslabs paketini yükleyin ve kütüphaneyi açın
- install.packages("dslabs")
-library(dslabs)
 
-# 2. polls_us_election_2016 veri setini içe aktarın
-data("polls_us_election_2016")
-
-# 3. Dokümanın üst kısmında istenen değişkenleri tanımlayın
-my_first <- "SILA"         
-my_birth_year <- 1998        
-
-# İşlemin doğruluğunu kontrol etmek için:
-head(polls_us_election_2016)
-print(my_first)
-print(my_birth_year)
 
 ## (a)
 
