@@ -8,10 +8,15 @@ title: "Çalışma 1"
 Bu çalışmada 3 görevimiz var. Bu görevler..... Bunlara sırayla aşağıda cevap arıyoruz.
 
 Seçilen video "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir"
+Videonun Öeti : Baykal Hafızoğlu ve Erdi Daşdemir’in gerçekleştirdiği bu söyleşi, Endüstri Mühendisliği (EM) disiplini ile Veri Bilimi dünyasının nasıl iç içe geçtiğini ve bu iki alanın birbirini nasıl beslediğini detaylandırıyor. Teknik becerilerin yanına iş analitiği, sistem düşüncesi ve sektörel tecrübe eklendiğinde, Endüstri Mühendislerinin veri bilimi alanında fark yaratan liderlere dönüşebileceğini anlatıyor.
+
+##Açık Uçlu Soru
 Videoda bahsedilenlere göre, bir veri bilimi projesinde 'başarı' sadece modelin yüksek doğruluk oranına sahip olması mıdır? Neden?
 ## cevap
 Hayır, modelin işe değer katması ve uygulanabilr olması gerekir.
 
+
+## Çoktan Seçmeli Soru
 Baykal Hafızoğlu'nun sohbetinde geçen 'Analitik Olgunluk' kavramı şirketler için ne ifade eder?
 
 
