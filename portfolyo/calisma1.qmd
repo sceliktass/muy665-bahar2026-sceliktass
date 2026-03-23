@@ -6,10 +6,21 @@ title: "Çalışma 1"
 (Aşağıdakiler örnek olarak verilmiştir.)
 
 Bu çalışmada 3 görevimiz var. Bu görevler..... Bunlara sırayla aşağıda cevap arıyoruz.
+
+Seçilen video "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir"
 Videoda bahsedilenlere göre, bir veri bilimi projesinde 'başarı' sadece modelin yüksek doğruluk oranına sahip olması mıdır? Neden?
 ## cevap
 Hayır, modelin işe değer katması ve uygulanabilr olması gerekir.
 
+Baykal Hafızoğlu'nun sohbetinde geçen 'Analitik Olgunluk' kavramı şirketler için ne ifade eder?
+
+
+A. Şirketin veriyi karar alma süreçlerine ne kadar dahil ettiği
+B. Şirketin çalışan sayısı
+C. Şirketin kaç tane bilgisayara sahip olduğu
+D. Şirketin sadece en yeni yazılımları kullanması
+
+##CEVAP A Şıkkı
 
 ## (a)
 
