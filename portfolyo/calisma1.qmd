@@ -6,6 +6,10 @@ title: "Çalışma 1"
 (Aşağıdakiler örnek olarak verilmiştir.)
 
 Bu çalışmada 3 görevimiz var. Bu görevler..... Bunlara sırayla aşağıda cevap arıyoruz.
+Videoda bahsedilenlere göre, bir veri bilimi projesinde 'başarı' sadece modelin yüksek doğruluk oranına sahip olması mıdır? Neden?
+## cevap
+Hayır, modelin işe değer katması ve uygulanabilr olması gerekir.
+
 
 ## (a)
 
