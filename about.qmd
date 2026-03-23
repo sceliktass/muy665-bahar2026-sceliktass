@@ -1,5 +1,5 @@
 ---
-title: "Hakkımda"
+title: "Sıla ÇELİKTAŞ YALÇINKAYA"
 sidebar: false 
 ---
 
@@ -7,10 +7,9 @@ sidebar: false
 
 # Eğitim
 
--   B.S., ................................., ....................................University, Turkey, 20xx - 20xx.
--   M.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
--   Ph.D.., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
-
+-   B.S.,Electrical and electronics Eengineering, Gazi University, Turkey, 2017-2022.
+-   M.S., Engineering Management, Hacettepe University, Turkey, 2025 - ongoing.
+-  
 # İş Tecrübesi
 
 ## Employements
