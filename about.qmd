@@ -14,15 +14,15 @@ sidebar: false
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  ENERJISA, Junior Engineer, 2022
 
-2.  Firm yyy, position yyy, year yyy
+2.  ASELSAN, System Enggineer, 2022-ongoing
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  AYDEMİR, 2020
 
-2.  Firm bbb, position yyy, year yyy
+2.  ASELSAN, 2021
 
 # Projects
 
@@ -30,10 +30,10 @@ sidebar: false
 
 # Publications
 
-1.  Dasdemir, E., Batta, R., Koksalan, M., Tezcaner Ozturk, D. (2022) “UAV Routing for Reconnaissance Mission: A Multi-Objective Orienteering Problem with Time-Dependent Prizes and Multiple Connections”, Computers & Operations Research, 145: 105882.
+1.  Celiktas, S., Inan, A., Aksoy, İ.,  (2022) “EMI Filter Design with Passive Components for Power Lines”, IEEE.
 
 # Competencies
 
-R, Quarto, Git, Python
+ Java, C++, Python
 
 # Hobbies
