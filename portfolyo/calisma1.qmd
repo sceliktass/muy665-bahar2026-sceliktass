@@ -1,11 +1,8 @@
 ---
-title: "Çalışma 1"
+title: "calisma"
 ---
 
 \
-(Aşağıdakiler örnek olarak verilmiştir.)
-
-Bu çalışmada 3 görevimiz var. Bu görevler..... Bunlara sırayla aşağıda cevap arıyoruz.
 
 Seçilen video "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir"
 Videonun Öeti : Baykal Hafızoğlu ve Erdi Daşdemir’in gerçekleştirdiği bu söyleşi, Endüstri Mühendisliği (EM) disiplini ile Veri Bilimi dünyasının nasıl iç içe geçtiğini ve bu iki alanın birbirini nasıl beslediğini detaylandırıyor. Teknik becerilerin yanına iş analitiği, sistem düşüncesi ve sektörel tecrübe eklendiğinde, Endüstri Mühendislerinin veri bilimi alanında fark yaratan liderlere dönüşebileceğini anlatıyor.
@@ -29,107 +26,73 @@ D. Şirketin sadece en yeni yazılımları kullanması
 
 
 
-##dslabs paketinden polls_us_election_2016 veri setinin içe aktarılması.
 
-```{r}
+
+---
+title: "Ödev 1"
+format: html
+---
+---
+title: "Ödev 1"
+format: html
+---
+
 library(dslabs)
-
 data("polls_us_election_2016")
 
-data <- polls_us_election_2016
+# 1. Değişken Tanımlama
+my_first <- "Sıla"        
+my_birth_year <- 1998         
 
-head(data)
-```
-
-##İki değişken(Ad ve doğum yılı) ve bir k tamsayısı (integer) tanımlanması. Orijinal veri setinin k adet satırını görüntülemek.
-
-```{r}
-my_first <- "SILA"
-my_birth_year <- 1998
+# 2. k Değerinin Hesaplanması
 k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+print(paste("Hesaplanan k değeri:", k))
+
+# 3. k Kuralına Göre Satır Görüntüleme
 if (k %% 2 == 0) {
-  head(data, k)
+  # k çift ise ilk k satır
+  print(head(polls_us_election_2016, k))
 } else {
-  tail(data, k)
+  # k tek ise son k satır
+  print(tail(polls_us_election_2016, k))
 }
-```
 
-##Tüm veri setindeki toplam NA (eksik) değer sayısı.
+# 4. NA (Eksik Değer) Analizi
+# Toplam NA sayısı
+total_na <- sum(is.na(polls_us_election_2016))
+print(paste("Tüm veri setindeki toplam NA sayısı:", total_na))
 
-```{r}
-sum(is.na(data))
-```
+# Sütun başına NA sayısı (Sıralanmış ve ilk 8 sütun)
+col_na_counts <- sort(colSums(is.na(polls_us_election_2016)), decreasing = TRUE)
+print("Sütun başına NA sayıları (İlk 8):")
+print(head(col_na_counts, 8))
 
-##En büyükten en küçüğe sıralanmış şekilde sütun başına NA değer sayısı (ilk 8 sütunu görüntülemek.)
+# 5. NA Değerlerini Değiştirme
+# Orijinal veriyi bozmamak için kopya oluşturuyoruz
+new_data <- polls_us_election_2016
 
-```{r}
-library(knitr)
-
-na_counts <- colSums(is.na(data))
-na_counts_sorted <- sort(na_counts, decreasing = TRUE)
-
-na_df <- data.frame(
-  Degisken = names(na_counts_sorted),
-  NA_Sayisi = unname(na_counts_sorted)
-)
-
-kable(
-  head(na_df, 8),
-  caption = "Sütunlara Göre NA Sayıları (En Yüksek 8)"
-)
-```
-
-##Veri setindeki tüm NA değerlerini aşağıdaki gibi değiştirin ve sonucu yeni bir nesne olarak kaydedin (orijinalin üzerine yazmayın):
-
-– Sayısal (numeric) sütunlar için: NA değerlerini my_birth_year + k ile değiştirin.
-
-– Karakter (character) veya faktör (factor) sütunları için: NA değerlerini paste0(my_first, "\_", k) ile değiştirin.
-
-```{r}
-new_data <- data
-
-for (col in names(new_data)) {
-  
-  if (is.numeric(new_data[[col]])) {
-    
-    new_data[[col]][is.na(new_data[[col]])] <- my_birth_year + k
-    
-  } else if (is.character(new_data[[col]])) {
-    
-    new_data[[col]][is.na(new_data[[col]])] <- paste0(my_first, "_", k)
-    
-  } else if (is.factor(new_data[[col]])) {
-    
-    new_data[[col]] <- as.character(new_data[[col]])
-    new_data[[col]][is.na(new_data[[col]])] <- paste0(my_first, "_", k)
-    
+for (i in 1:ncol(new_data)) {
+  if (is.numeric(new_data[[i]])) {
+    # Sayısal sütunlar için: doğum yılı + k
+    new_data[[i]][is.na(new_data[[i]])] <- my_birth_year + k
+  } else if (is.character(new_data[[i]]) || is.factor(new_data[[i]])) {
+    # Karakter veya Faktör sütunları için: isim_k
+    # Faktörlerde yeni seviyeyi (level) eklemezsek hata alabiliriz
+    if (is.factor(new_data[[i]])) {
+      levels(new_data[[i]]) <- c(levels(new_data[[i]]), paste0(my_first, "_", k))
+    }
+    new_data[[i]][is.na(new_data[[i]])] <- paste0(my_first, "_", k)
   }
 }
-```
 
-##Yeni veri çerçevesi (data frame) için çıktıları yazdırın:
-
-##Yukarıdakiyle tamamen aynı kuralı kullanarak yeni veri çerçevesinin k satırını görüntüleyin:
-
-– Eğer k çift ise, yeni veri çerçevesinin ilk k satırını gösterin.
-
-– Eğer k tek ise, yeni veri çerçevesinin son k satırını gösterin.
-
-##Yeni veri çerçevesinde kalan toplam NA değer sayısını görüntüleyin.
-
-## Ayrıca anyNA(new_data) komutunu da yazdırın (Eğer doğru bir şekilde değiştirdiyseniz FALSE döndürmelidir).
-
-```{r}
-# 1. k’ya göre satır gösterme
+# 6. Yeni Veri Çerçevesi Çıktıları
+# k kuralına göre görüntüleme
 if (k %% 2 == 0) {
-  head(new_data, k)
+  print(head(new_data, k))
 } else {
-  tail(new_data, k)
+  print(tail(new_data, k))
 }
 
-# 2. Toplam NA sayısı
-sum(is.na(new_data))
-
-# 3. anyNA sonucu
-anyNA(new_data)
-```
+# Kalan NA sayısı ve doğrulama
+print(paste("Yeni veri setindeki toplam NA sayısı:", sum(is.na(new_data))))
+print(paste("anyNA sonucu:", anyNA(new_data)))

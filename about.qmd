@@ -1,39 +1,31 @@
 ---
-title: "Sıla ÇELİKTAŞ YALÇINKAYA"
-sidebar: false 
+title: "Sıla Çeliktaş Yalçınkaya"
+sidebar: false
 ---
 
-![](assets/images/vesikalik.jpeg){fig-align="center"}
+![](assets/images/vesikalik.jpeg){fig-align="center" width="200"}
 
-# Eğitim
+# 🎓 Eğitim
 
--   B.S.,Electrical and electronics Eengineering, Gazi University, Turkey, 2017-2022.
--   M.S., Engineering Management, Hacettepe University, Turkey, 2025 - ongoing.
--  
-# İş Tecrübesi
+- B.S., Electrical and Electronics Engineering, Gazi University, Turkey (2017–2022)
+- M.S., Engineering Management, Hacettepe University, Turkey (2025 – ongoing)
 
-## Employements
+# 💼 İş Tecrübesi
 
-1.  ENERJISA, Junior Engineer, 2022
+## Çalıştığı Yerler
 
-2.  ASELSAN, System Enggineer, 2022-ongoing
+1. ENERJISA – Junior Engineer (2022)  
+2. ASELSAN – System Engineer (2022 – ongoing)
 
-## Internships
+## Stajlar
 
-1.  AYDEMİR, 2020
+1. AYDEMIR – 2020  
+2. ASELSAN – 2021  
 
-2.  ASELSAN, 2021
+# 🚀 Projeler
 
-# Projects
+- TÜBİTAK 1001 Projesi
 
-1.  TUBİTAK 1001..........................
+# 📄 Yayınlar
 
-# Publications
-
-1.  Celiktas, S., Inan, A., Aksoy, İ.,  (2022) “EMI Filter Design with Passive Components for Power Lines”, IEEE.
-
-# Competencies
-
- Java, C++, Python
-
-# Hobbies
+- Celiktas, S., Inan, A., Aksoy, D. (2022)

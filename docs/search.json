@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Analitik sayfama hoş geldiniz",
+    "title": "Sıla ÇELİKTAŞ YALÇINKAYA",
     "section": "",
-    "text": "MUY660-İş Analitiği dersi sayfama hoş geldiniz.\nBu analitik çalışmalarımızı paylaşıyorum.\n\n\n\n Back to top"
+    "text": "MUY660-D0E\u001f AnalitiD\u001fi dersi sayfama hoE\u001f geldiniz.\nBu analitik C’alD1E\u001fmalarD1mD1zD1 paylaE\u001fD1yorum.\n\n\n\n Back to top"
   },
   {
     "objectID": "teammembers/volkansonmez.html",
@@ -320,11 +320,11 @@
   {
     "objectID": "portfolyo/calisma1.html",
     "href": "portfolyo/calisma1.html",
-    "title": "Çalışma 1",
+    "title": "Ödev 1",
     "section": "",
-    "text": "(Aşağıdakiler örnek olarak verilmiştir.)\nBu çalışmada 3 görevimiz var. Bu görevler….. Bunlara sırayla aşağıda cevap arıyoruz.",
+    "text": "Seçilen video “Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir” Videonun Öeti : Baykal Hafızoğlu ve Erdi Daşdemir’in gerçekleştirdiği bu söyleşi, Endüstri Mühendisliği (EM) disiplini ile Veri Bilimi dünyasının nasıl iç içe geçtiğini ve bu iki alanın birbirini nasıl beslediğini detaylandırıyor. Teknik becerilerin yanına iş analitiği, sistem düşüncesi ve sektörel tecrübe eklendiğinde, Endüstri Mühendislerinin veri bilimi alanında fark yaratan liderlere dönüşebileceğini anlatıyor.\n##Açık Uçlu Soru Videoda bahsedilenlere göre, bir veri bilimi projesinde ‘başarı’ sadece modelin yüksek doğruluk oranına sahip olması mıdır? Neden? ## cevap Hayır, modelin işe değer katması ve uygulanabilr olması gerekir.",
     "crumbs": [
-      "Çalışma 1"
+      "Ödev 1"
     ]
   },
   {
@@ -564,5 +564,29 @@
     "title": "My Blog",
     "section": "",
     "text": "Bu sayfa yapım aşamasındadır.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html#çalıştığı-yerler",
+    "href": "about.html#çalıştığı-yerler",
+    "title": "Sıla Çeliktaş Yalçınkaya",
+    "section": "Çalıştığı Yerler",
+    "text": "Çalıştığı Yerler\n\nENERJISA – Junior Engineer (2022)\n\nASELSAN – System Engineer (2022 – ongoing)"
+  },
+  {
+    "objectID": "about.html#stajlar",
+    "href": "about.html#stajlar",
+    "title": "Sıla Çeliktaş Yalçınkaya",
+    "section": "Stajlar",
+    "text": "Stajlar\n\nAYDEMIR – 2020\n\nASELSAN – 2021"
+  },
+  {
+    "objectID": "portfolyo/calisma1.html#çoktan-seçmeli-soru",
+    "href": "portfolyo/calisma1.html#çoktan-seçmeli-soru",
+    "title": "Ödev 1",
+    "section": "Çoktan Seçmeli Soru",
+    "text": "Çoktan Seçmeli Soru\nBaykal Hafızoğlu’nun sohbetinde geçen ‘Analitik Olgunluk’ kavramı şirketler için ne ifade eder?\nA. Şirketin veriyi karar alma süreçlerine ne kadar dahil ettiği B. Şirketin çalışan sayısı C. Şirketin kaç tane bilgisayara sahip olduğu D. Şirketin sadece en yeni yazılımları kullanması\n##CEVAP A Şıkkı\nlibrary(dslabs) data(“polls_us_election_2016”)",
+    "crumbs": [
+      "Ödev 1"
+    ]
   }
 ]
