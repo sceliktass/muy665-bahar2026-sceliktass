@@ -7,25 +7,25 @@ sidebar: false
 
 # 🎓 Eğitim
 
-- B.S., Electrical and Electronics Engineering, Gazi University, Turkey (2017–2022)
-- M.S., Engineering Management, Hacettepe University, Turkey (2025 – ongoing)
+-   B.S., Electrical and Electronics Engineering, Gazi University, Turkey (2017–2022)
+-   M.S., Engineering Management, Hacettepe University, Turkey (2025 – ongoing)
 
 # 💼 İş Tecrübesi
 
 ## Çalıştığı Yerler
 
-1. ENERJISA – Junior Engineer (2022)  
-2. ASELSAN – System Engineer (2022 – ongoing)
+1.  ENERJISA – Junior Engineer (2022)\
+2.  ASELSAN – System Engineer (2022 – ongoing)
 
 ## Stajlar
 
-1. AYDEMIR – 2020  
-2. ASELSAN – 2021  
+1.  AYDEMIR – 2020\
+2.  ASELSAN – 2021
 
 # 🚀 Projeler
 
-- TÜBİTAK 1001 Projesi
+-   TÜBİTAK 1001 Projesi
 
 # 📄 Yayınlar
 
-- Celiktas, S., Inan, A., Aksoy, D. (2022)
+-   Celiktas, S., Inan, A., Aksoy, D. (2022)
